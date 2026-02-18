@@ -1,5 +1,4 @@
-# Documental-Maestros-Roneros
-Maestros Roneros, los guardianes del ron venezolano. 
+
 # Maestros Roneros | El Documental
 
 **Un viaje visual y sensorial al alma del ron venezolano.**
