@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestros Roneros | Documental</title>
+    <meta name="description" content="Página oficial del documental Maestros Roneros, un viaje al alma del ron venezolano dirigido por Luis Ramos y Freddy Quintero.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-gold: #d4af37;
+        }
+        body { font-family: 'Montserrat', sans-serif; }
+        h1, h2, h3, h4, .font-serif { font-family: 'Playfair Display', serif; }
+        
+        .bg-hero {
+            background-image: linear-gradient(to bottom, rgba(9, 9, 11, 0.7), rgba(9, 9, 11, 0.95)), url('https://images.unsplash.com/photo-1605218444327-b66488581635?q=80&w=1920&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .text-gold { color: var(--color-gold); }
+        .border-gold { border-color: var(--color-gold); }
+        .bg-gold { background-color: var(--color-gold); }
+        .hover\:text-gold:hover { color: var(--color-gold); }
+        .hover\:bg-gold:hover { background-color: var(--color-gold); }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-300 antialiased">
+    
+    <nav class="fixed w-full z-50 bg-zinc-950/80 backdrop-blur-lg border-b border-amber-900/20 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#inicio" class="text-2xl font-bold text-gold font-serif tracking-[0.15em] hover:opacity-80 transition">MR.</a>
+            <div class="hidden md:flex space-x-8 text-[0.65rem] uppercase tracking-[0.25em] font-medium text-zinc-400">
+                <a href="#inicio" class="hover:text-gold transition duration-300 py-2">Inicio</a>
+                <a href="#nosotros" class="hover:text-gold transition duration-300 py-2">Nosotros</a>
+                <a href="#maestros" class="hover:text-gold transition duration-300 py-2">Maestros</a>
+                <a href="#galeria" class="hover:text-gold transition duration-300 py-2">Galería</a>
+                <a href="#ruta" class="hover:text-gold transition duration-300 py-2">La Ruta</a>
+            </div>
+            <button class="md:hidden text-zinc-400 hover:text-gold">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>                  
+            </button>
+        </div>
+    </nav>
+
+    <header id="inicio" class="min-h-screen bg-hero flex items-center justify-center text-center px-4 pt-20">
+        <div class="max-w-3xl mx-auto flex flex-col items-center">
+            <span class="text-gold text-xs md:text-sm uppercase tracking-[0.4em] mb-6 block font-medium pl-2">Un documental de Luis Ramos</span>
+            <h1 class="text-5xl md:text-7xl lg:text-[5.5rem] font-bold text-white mb-8 tracking-wide leading-tight drop-shadow-xl">
+                MAESTROS <br><span class="text-gold">RONEROS</span>
+            </h1>
+            <div class="w-24 h-[1px] bg-gradient-to-r from-transparent via-gold to-transparent mb-10"></div>
+            <p class="text-lg md:text-2xl text-zinc-300/90 mb-12 font-light italic max-w-xl leading-relaxed">
+                El alma del ron venezolano, destilada en una historia de pasión, tiempo y territorio.
+            </p>
+            <div class="flex flex-col md:flex-row gap-6">
+                <a href="#nosotros" class="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium tracking-tighter text-white bg-zinc-800 border border-zinc-700 rounded-sm hover:bg-zinc-700 transition duration-300">
+                    <span class="absolute w-0 h-0 transition-all duration-500 ease-out bg-gold rounded-full group-hover:w-56 group-hover:h-56 opacity-10"></span>
+                    <span class="relative text-xs uppercase tracking-[0.2em] text-gold group-hover:text-white transition duration-300">Descubre la Historia</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="nosotros" class="py-32 px-6 bg-zinc-950 relative overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-amber-900/5 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="text-gold text-xs uppercase tracking-[0.3em] block mb-4 font-semibold">Nuestra Visión</span>
+            <h2 class="text-3xl md:text-4xl text-white mb-12 relative inline-block">
+                La Búsqueda de la Excelencia
+                <span class="absolute -bottom-4 left-1/2 -translate-x-1/2 w-12 h-0.5 bg-gold"></span>
+            </h2>
+            <p class="text-lg md:text-[1.15rem] leading-[2em] text-zinc-400 mb-10 font-light text-justify md:text-center">
+                Producido por <strong class="text-zinc-200 font-medium">Wayu Producciones</strong> y financiado por el <strong class="text-zinc-200 font-medium">CNAC</strong>. Bajo la dirección de <strong class="text-gold font-semibold">Luis Ramos y Freddy Quintero</strong>, "Maestros Roneros" es un viaje visual y sensorial a las raíces de nuestra identidad. En colaboración con especialistas del destilado como <strong class="text-gold font-semibold">Adriana Gibbs</strong>, buscamos capturar la tierra, el clima y la pasión inquebrantable de quienes transforman la caña en uno de los rones más premiados del mundo.
+            </p>
+            <img src="https://wayuproducciones.com/wp-content/uploads/2019/10/Logo-Blanco-Wayu-300x146.png" alt="Wayu Producciones" class="h-12 mx-auto opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition duration-500">
+        </div>
+    </section>
+
+    <section id="maestros" class="py-32 bg-zinc-900/50 px-6 border-y border-zinc-800/50 relative">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-20">
+                 <span class="text-gold text-xs uppercase tracking-[0.3em] block mb-4 font-semibold">Los Protagonistas</span>
+                 <h2 class="text-4xl text-white">Guardianes del ron venezolano</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-12">
+                <div class="group">
+                    <div class="relative h-[400px] mb-6 overflow-hidden rounded-sm bg-zinc-800">
+                        <img src="https://i.postimg.cc/tCKtdG0z/CARMEN_LÓPEZ.png" alt="Retrato de Carmen López de Bastidas" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-in-out opacity-80 group-hover:opacity-100">
+                        <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-90"></div>
+                         <div class="absolute bottom-6 left-6 right-6">
+                             <h3 class="text-2xl text-white mb-3 font-bold relative z-10">Carmen López de Bastidas</h3>
+                             <p class="text-gold text-[0.65rem] uppercase tracking-widest font-bold relative z-10 mb-6">Maestra Ronera - Ron Carúpano</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-zinc-400 italic leading-relaxed font-light border-l-2 border-gold/50 pl-4">
+                        "El ron forma parte de mi vida."
+                    </blockquote>
+                </div>
+                
+                <div class="group mt-8 md:mt-0">
+                    <div class="relative h-[400px] mb-6 overflow-hidden rounded-sm bg-zinc-800">
+                        <img src="https://i.postimg.cc/FKh1yDTY/JOSE-ARAUJO.png" alt="Retrato de José Araujo" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-in-out opacity-80 group-hover:opacity-100">
+                         <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-90"></div>
+                         <div class="absolute bottom-6 left-6 right-6">
+                             <h3 class="text-2xl text-white mb-3 font-bold relative z-10">José Araujo</h3>
+                             <p class="text-gold text-[0.65rem] uppercase tracking-widest font-bold relative z-10 mb-6">Maestro Ronero - Ron Calazan</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-zinc-400 italic leading-relaxed font-light border-l-2 border-gold/50 pl-4">
+                        "Mi encuentro con el ron fue algo imprevisto."
+                    </blockquote>
+                </div>
+
+                <div class="group">
+                    <div class="relative h-[400px] mb-6 overflow-hidden rounded-sm bg-zinc-800">
+                        <img src="https://i.postimg.cc/GhWJPn0x/NANCY_DUARTE_STA_TERESA.png" alt="Retrato de Nancy Duarte" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-in-out opacity-80 group-hover:opacity-100">
+                         <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-90"></div>
+                         <div class="absolute bottom-6 left-6 right-6">
+                             <h3 class="text-2xl text-white mb-3 font-bold relative z-10">Nancy Duarte</h3>
+                             <p class="text-gold text-[0.65rem] uppercase tracking-widest font-bold relative z-10 mb-6">Maestra Ronera - Ron Santa Teresa</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-zinc-400 italic leading-relaxed font-light border-l-2 border-gold/50 pl-4">
+                        "Frase pendiente..."
+                    </blockquote>
+                </div>
+
+                <div class="group mt-8 md:mt-0">
+                    <div class="relative h-[400px] mb-6 overflow-hidden rounded-sm bg-zinc-800">
+                        <img src="https://i.postimg.cc/xj7ZPcyy/Captura-de-pantalla-2026-02-17-103209.png" alt="Retrato de José Martín" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-in-out opacity-80 group-hover:opacity-100">
+                         <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-90"></div>
+                         <div class="absolute bottom-6 left-6 right-6">
+                             <h3 class="text-2xl text-white mb-3 font-bold relative z-10">José Martín</h3>
+                             <p class="text-gold text-[0.65rem] uppercase tracking-widest font-bold relative z-10 mb-6">Maestro Ronero - Bodegas El Muco</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-zinc-400 italic leading-relaxed font-light border-l-2 border-gold/50 pl-4">
+                        "Frase pendiente..."
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="py-32 px-6 bg-zinc-950">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-20">
+                 <span class="text-gold text-xs uppercase tracking-[0.3em] block mb-4 font-semibold">Inmersión Visual</span>
+                 <h2 class="text-4xl text-white">El Arte del Proceso</h2>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5">
+                
+                <div class="group relative col-span-2 aspect-video md:aspect-[2/1] overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/q7qJ3Nxb/Captura_de_pantalla_2026_02_17_101352.png" alt="Escena del documental 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/mrkLHPyV/Captura_de_pantalla_2026_02_17_101308.png" alt="Escena del documental 2" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/zfvzgykv/Captura_de_pantalla_2026_02_17_101439.png" alt="Escena del documental 3" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/cJzsMdDr/Captura_de_pantalla_2026_02_17_101520.png" alt="Escena del documental 4" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/Ls591J3y/Captura_de_pantalla_2026_02_17_101225.png" alt="Escena del documental 5" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative col-span-2 aspect-video md:aspect-[2/1] overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/zfQJSqdy/Captura_de_pantalla_2026_02_17_101553.png" alt="Escena del documental 6" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/L4LHLKj9/Captura_de_pantalla_2026_02_17_104705.png" alt="Escena del documental 7" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/8kM1MQLS/Captura_de_pantalla_2026_02_17_105302.png" alt="Escena del documental 8" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/VsnYnQX1/Captura_de_pantalla_2026_02_17_105354.png" alt="Escena del documental 9" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/yx4stvCC/Captura_de_pantalla_2026_02_17_102508.png" alt="Escena del documental 10" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+
+                <div class="group relative col-span-2 aspect-video md:aspect-[2/1] overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/PJsT92nH/Captura_de_pantalla_2026_02_17_102626.png" alt="Escena del documental 11" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/8cRNSMTy/Captura_de_pantalla_2026_02_17_104600.png" alt="Escena del documental 12" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/WbVs7W7W/Captura_de_pantalla_2026_02_17_105639.png" alt="Escena del documental 13" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/pXvPBGBs/Captura_de_pantalla_2026_02_17_105850.png" alt="Escena del documental 14" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/sDz3J6J8/Captura_de_pantalla_2026_02_17_105944.png" alt="Escena del documental 15" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/59LxLd8F/Captura_de_pantalla_2026_02_17_105510.png" alt="Escena del documental 16" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                <div class="group relative aspect-square overflow-hidden rounded-sm bg-zinc-900 cursor-pointer">
+                    <img src="https://i.postimg.cc/bNPqRCRS/Captura_de_pantalla_2026_02_17_105547.png" alt="Escena del documental 17" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out">
+                    <div class="absolute inset-0 bg-amber-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="ruta" class="py-32 px-6 bg-zinc-900/50 border-t border-zinc-800/50">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-20">
+                <span class="text-gold text-xs uppercase tracking-[0.3em] block mb-4 font-semibold">Bitácora de Rodaje</span>
+                <h2 class="text-4xl text-white">La Ruta del Documental</h2>
+           </div>
+            <div class="border-l-2 border-zinc-800 pl-8 ml-4 md:ml-10 space-y-16 relative">
+                
+                <div class="relative">
+                    <div class="absolute -left-[43px] top-1.5 w-5 h-5 rounded-full bg-zinc-950 border-2 border-gold shadow-[0_0_15px_rgba(212,175,55,0.3)]"></div>
+                    <span class="text-gold text-xs uppercase tracking-widest font-semibold mb-2 block">Fase culminada en el oriente del país</span>
+                    <h3 class="text-2xl text-white mb-3">Pre-producción y Alianzas</h3>
+                    <p class="text-zinc-400 leading-relaxed">Estructuración final de la narrativa, investigación documental y consolidación de alianzas estratégicas con las principales casas roneras del oriente del país, Ron Carúpano y Ron Calazan.</p>
+                </div>
+
+                <div class="relative opacity-90 hover:opacity-100 transition duration-500">
+                    <div class="absolute -left-[43px] top-1.5 w-5 h-5 rounded-full bg-zinc-800 border-2 border-zinc-500"></div>
+                    <span class="text-zinc-400 text-xs uppercase tracking-widest font-semibold mb-2 block">Junio 2024 (Proyectado)</span>
+                    <h3 class="text-2xl text-zinc-200 mb-3">Rodaje: Región Oriental</h3>
+                    <p class="text-zinc-400 leading-relaxed">Inicio de grabaciones de campo. Captura de imágenes en las plantas de Ron Carúpano y Ron Calazan. Entrevistas con los maestros Carmen López de Ron Carúpano y José Araujo de Ron Calazan. Registro de imágenes en galpones de añejamiento, laboratorios, vaciados, barricas y embotellamiento de productos.</p>
+                </div>
+
+                <div class="relative opacity-90 hover:opacity-100 transition duration-500">
+                    <div class="absolute -left-[43px] top-1.5 w-5 h-5 rounded-full bg-zinc-800 border-2 border-zinc-500"></div>
+                    <span class="text-zinc-400 text-xs uppercase tracking-widest font-semibold mb-2 block">Segundo Semestre 2025</span>
+                    <h3 class="text-2xl text-zinc-200 mb-3">Post-producción</h3>
+                    <p class="text-zinc-400 leading-relaxed">Edición y montaje del trailer, corrección de color para lograr el look cinematográfico, diseño sonoro y composición musical.</p>
+                </div>
+
+                <div class="relative opacity-70 hover:opacity-100 transition duration-500">
+                    <div class="absolute -left-[43px] top-1.5 w-5 h-5 rounded-full bg-zinc-800 border-2 border-zinc-600"></div>
+                    <span class="text-zinc-500 text-xs uppercase tracking-widest font-semibold mb-2 block">Segundo Semestre 2026</span>
+                    <h3 class="text-2xl text-zinc-200 mb-3">Pre-producción, Alianzas y Rodaje: Región Central</h3>
+                    <p class="text-zinc-500 leading-relaxed mb-4">Estructuración final de la narrativa, investigación documental y consolidación de alianzas estratégicas con las principales casas roneras del centro del país, Ron Santa Teresa, Ron Ocumare, Ron Cañaveral, Ron Barrica y Ron Robles.</p>
+                    <p class="text-zinc-400 font-semibold leading-relaxed mb-4">Rodaje para el mes de abril y mayo.</p>
+                    <p class="text-zinc-500 leading-relaxed mb-4">Visita a la Hacienda Santa Teresa (Ron Santa Teresa) con la Maestra Nancy Duarte. Registro de galpones de añejamiento, laboratorio, barricas y otros procesos en la elaboración de este destilado.</p>
+                    <p class="text-zinc-500 leading-relaxed">Visita al Centro Licorero del Centro, donde se concentran varios productos como Ron Ocumare, Ron Cañaveral, Ron Barrica y Ron Robles. Interacción con los maestros roneros: Giogo Melis, Andrés Contreras, Carlos Pérez y Laura ******.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   <footer class="bg-zinc-950 pt-24 pb-12 text-center border-t border-zinc-900 px-6 relative overflow-hidden">
+        
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-amber-900/10 rounded-full blur-3xl -z-0 pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto relative z-10 flex flex-col items-center">
+
+            <div class="mb-16">
+                <span class="text-zinc-500 text-[0.65rem] uppercase tracking-[0.3em] block mb-6 font-medium">Producido por:</span>
+                <img src="https://i.postimg.cc/6QvJQvsd/logo-wayu-nuevo-blanco.png" alt="Wayu Producciones" class="h-28 md:h-40 mx-auto opacity-60 hover:opacity-100 transition-all duration-500">
+            </div>
+
+            <div class="mb-16">
+                <span class="text-zinc-500 text-[0.65rem] uppercase tracking-[0.3em] block mb-6 font-medium">Financiado por:</span>
+                <img src="https://i.postimg.cc/MTxvzxc3/Logo_CNAC_01.webp" alt="CNAC" class="h-24 md:h-32 mx-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+            </div>
+
+            <div class="mb-20">
+                <span class="text-zinc-500 text-[0.65rem] uppercase tracking-[0.3em] block mb-6 font-medium">Aliado Principal:</span>
+                <img src="https://i.postimg.cc/63h99vRk/davis-joseph.png" alt="David & Joseph" class="h-14 md:h-18 mx-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+            </div>
+
+            <div class="mb-20 w-full">
+                <h4 class="text-zinc-400 text-sm uppercase tracking-[0.2em] font-semibold mb-2">Aliados en la Región Oriente:</h4>
+                <span class="text-gold text-[0.65rem] uppercase tracking-[0.3em] block mb-10">Marcas de Rones</span>
+                <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-10 px-4">
+                    <img src="https://i.postimg.cc/zv7hsv0c/envato_labs_image_edit_(2).png" alt="Ron Venezuela DOC" class="h-16 md:h-24 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/vThnJT30/envato_labs_image_edit_(1).png" alt="Bodega 1800" class="h-16 md:h-24 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/htbfM0Kt/LOGO-RON-CARUPANO.png" alt="Ron Carúpano" class="h-16 md:h-24 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/fTbS3wH4/CALAZAN.png" alt="Ron Calazan" class="h-16 md:h-24 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                </div>
+            </div>
+
+            <div class="mb-24 w-full">
+                <span class="text-zinc-500 text-[0.65rem] uppercase tracking-[0.3em] block mb-10 font-medium">Aliados en Logística:</span>
+                <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-10 px-4">
+                    <img src="https://i.postimg.cc/05n9JD3q/ALCALDIA_DE_CARUPANO.png" alt="Alcaldía de Carúpano" class="h-10 md:h-14 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/g2QhFfHm/eurocaribe_retina_blanco_(1).png" alt="Eurocaribe" class="h-10 md:h-14 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/FH5YyHJ3/LOGO_Chocolate_Franceschi.png" alt="Chocolate Franceschi" class="h-10 md:h-14 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/dVPh2VT8/LOGO_Hacienda_San_José_Sin_Fondo.png" alt="Hacienda San José" class="h-10 md:h-14 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/R02NyKmD/Tropical_Tour_RGB_(1).png" alt="Tropical Tour" class="h-10 md:h-14 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                </div>
+            </div>
+
+            <div class="mb-24 w-full">
+                <span class="text-zinc-500 text-[0.65rem] uppercase tracking-[0.3em] block mb-10 font-medium">Colaboradores Audiovisuales:</span>
+                <div class="flex flex-wrap justify-center items-center gap-x-16 gap-y-10 px-4">
+                    <img src="https://i.postimg.cc/4yf7QZsz/Logo_Drone_Anzoategui.png" alt="Drone Anzoátegui" class="h-12 md:h-16 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                    <img src="https://i.postimg.cc/CLjjS040/envato_labs_image_edit_(8).png" alt="Colaborador Audiovisual" class="h-12 md:h-16 w-auto brightness-0 invert opacity-60 hover:brightness-100 hover:invert-0 hover:opacity-100 transition-all duration-500">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-6xl mx-auto border-t border-zinc-900 pt-8 flex flex-col md:flex-row justify-between items-center text-zinc-600 text-xs tracking-wider gap-4 relative z-10">
+            <p>&copy; 2026 Wayu Producciones. Todos los derechos reservados.</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-gold transition">Instagram</a>
+                <a href="#" class="hover:text-gold transition">Contacto</a>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
